@@ -1,0 +1,69 @@
+
+
+body{
+    font-family: Tahoma;
+
+    /*background: url(https://img.besthqwallpapers.com/Uploads/28-3-2019/85224/green-grass-texture-4k-summer-macro-green-background.jpg)
+    no-repeat center center /cover;*/
+}
+
+h1{
+margin: 0;
+text-transform: uppercase;
+padding-bottom: 5px;
+border-bottom: 3pz solid rgb(20, 234, 234);
+}
+
+.green-form{
+border-radius: 20px/20px;
+border: none;
+margin: 0 auto;
+background: hwb(120 60% 2%);
+box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+
+.group{
+    margin: 10px;
+    padding: 5px ;
+}
+
+label{
+    padding-left: 10px;
+}
+input{
+    margin-top: 10px;
+    height: 40px;
+    width: 100%;
+    border-radius: 20px/20px;
+    border: none;
+    padding-left: 15px;
+    font-size: 18px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+
+.input-class{
+    border-radius: 20px/20px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+
+input:focus{
+    outline: none;
+}
+
+.button-submit{
+    cursor: pointer;
+    padding: 10px 30px;
+    height: 50px;
+    color: white;
+    background: green;
+    border: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.82);
+}
+/* 
+button:hover{
+    opacity: .80;
+    font-weight: bold;
+    transform: scale(1.1);
+} */

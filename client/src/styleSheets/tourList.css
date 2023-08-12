@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tour-grid {
+    display: grid;
+}
+
+.text-stroke {
+    -webkit-text-stroke: 1px black;
+    paint-order: stroke fill;
+}
+
+.tour-item {
+    display: none;
+}
+
+.tour-item:checked + div {
+    background-color: #16a34a;
+}
